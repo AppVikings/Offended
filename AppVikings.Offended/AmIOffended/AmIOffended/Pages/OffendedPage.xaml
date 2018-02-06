@@ -9,8 +9,10 @@
                   xmlns:mvx="clr-namespace:MvvmCross.Forms.Bindings;assembly=MvvmCross.Forms">
 
     <ContentPage.Content>
-        <Label mvx:Bi.nd="Text OffendedResultText" VerticalOptions="Center" HorizontalOptions="Center" />
-        <Button Text="Am I offended?" mvx:Bi.nd="Click CheckIfImOffended" />
+        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Label mvx:Bi.nd="Text OffendedResultText" VerticalOptions="Center" HorizontalOptions="Center" />
+            <Button Text="Am I offended?" mvx:Bi.nd="Clicked CheckIfImOffended" />
+        </StackLayout>
     </ContentPage.Content>
 
 </d:MvxContentPage>
