@@ -27,7 +27,7 @@ namespace AmIOffended.Core.ViewModels
                         OffendedResultText = "You should be offended!";
                         break;
                     case OffendedState.VeryOffended:
-                        OffendedResultText = "OMG! The level of offended you should be has reached epic!";
+                        OffendedResultText = "The level of offended you should be has reached epic!";
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();

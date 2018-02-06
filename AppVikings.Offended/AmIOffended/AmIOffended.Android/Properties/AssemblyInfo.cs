@@ -1,5 +1,4 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Android.App;
 
@@ -7,6 +6,7 @@ using Android.App;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("AmIOffended.Android")]
+[assembly: Application(Icon = "@drawable/offended_icon")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
@@ -30,5 +30,3 @@ using Android.App;
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
 // Add some common permissions, these can be removed if not needed
-[assembly: UsesPermission(Android.Manifest.Permission.Internet)]
-[assembly: UsesPermission(Android.Manifest.Permission.WriteExternalStorage)]
