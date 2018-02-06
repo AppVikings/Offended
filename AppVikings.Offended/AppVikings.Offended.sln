@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmIOffended.iOS", "AmIOffen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmIOffended.UWP", "AmIOffended\AmIOffended.UWP\AmIOffended.UWP.csproj", "{F1123B33-113F-4042-85E8-22C3DCC8A38A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmIOffended", "AmIOffended\AmIOffended\AmIOffended.csproj", "{2456C208-71EE-4CAB-844D-5C3D3927366A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmIOffended.Core", "AmIOffended\AmIOffended\AmIOffended.Core.csproj", "{2456C208-71EE-4CAB-844D-5C3D3927366A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

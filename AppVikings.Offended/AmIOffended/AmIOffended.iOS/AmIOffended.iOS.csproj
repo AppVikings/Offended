@@ -119,13 +119,16 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="MvvmCross.StarterPack">
+      <Version>5.6.3</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.122203" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\AmIOffended\AmIOffended.csproj">
-      <Project>{9E62AE89-D8B8-495E-934B-DCD35F65FCB6}</Project>
-      <Name>AmIOffended</Name>
+    <ProjectReference Include="..\AmIOffended\AmIOffended.Core.csproj">
+      <Project>{2456C208-71EE-4CAB-844D-5C3D3927366A}</Project>
+      <Name>AmIOffended.Core</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

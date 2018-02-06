@@ -2,18 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using MvvmCross.Forms.Platform;
 using Xamarin.Forms;
 
-namespace AmIOffended
+namespace AmIOffended.Core
 {
-	public partial class App : Application
+	public partial class App : MvxFormsApplication
 	{
 		public App ()
 		{
-			InitializeComponent();
-
-			MainPage = new AmIOffended.MainPage();
 		}
 
 		protected override void OnStart ()
