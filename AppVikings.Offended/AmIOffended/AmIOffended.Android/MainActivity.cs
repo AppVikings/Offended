@@ -5,7 +5,7 @@ using MvvmCross.Forms.Droid.Views;
 
 namespace AmIOffended.Droid
 {
-    [Activity(Label = "Am I Offended", Theme = "@style/MainTheme", ScreenOrientation = ScreenOrientation.Portrait)]
+    [Activity(Label = "Am I Offended", Icon = "@drawable/icon", Theme = "@style/MainTheme", ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainActivity : MvxFormsApplicationActivity
     {        
         protected override void OnCreate(Bundle bundle)

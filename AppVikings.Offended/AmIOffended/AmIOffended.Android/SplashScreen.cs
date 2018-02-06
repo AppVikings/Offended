@@ -8,6 +8,7 @@ namespace AmIOffended.Droid
         Label = "Am I Offended?"
         , MainLauncher = true
         , Theme = "@style/MainTheme"
+        , Icon = "@drawable/icon"
         , NoHistory = true
         , ScreenOrientation = ScreenOrientation.Portrait)]
     public class SplashScreen : MvxSplashScreenActivity
