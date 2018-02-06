@@ -5,10 +5,12 @@
                   xmlns:local="clr-namespace:AmIOffended.Core"
                   x:Class="AmIOffended.Core.Pages.OffendedPage"
                   xmlns:viewModels="clr-namespace:AmIOffended.Core.ViewModels;assembly=AmIOffended.Core"
-                  xmlns:d="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms">
+                  xmlns:d="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+                  xmlns:mvx="clr-namespace:MvvmCross.Forms.Bindings;assembly=MvvmCross.Forms">
 
     <ContentPage.Content>
-        <Label Text="You should be offended!" VerticalOptions="Center" HorizontalOptions="Center" />
+        <Label mvx:Bi.nd="Text OffendedResultText" VerticalOptions="Center" HorizontalOptions="Center" />
+        <Button Text="Am I offended?" mvx:Bi.nd="Click CheckIfImOffended" />
     </ContentPage.Content>
 
 </d:MvxContentPage>
